@@ -1,6 +1,5 @@
-GIT
-  remote: git@github.com:Dan2552/avian.git
-  revision: df2688517c9e6a4e2dbb630128dda6d75d6e1e93
+PATH
+  remote: ../../../avian
   specs:
     avian (0.1.0)
       activesupport (~> 5.2)
@@ -15,12 +14,17 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    coderay (1.1.2)
     concurrent-ruby (1.1.5)
     gosu (0.14.5)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
+    method_source (0.9.2)
     minitest (5.12.2)
     process_output_wrapper (0.1.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     thor (0.20.3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -33,6 +37,7 @@ DEPENDENCIES
   activesupport
   avian!
   gosu
+  pry
 
 BUNDLED WITH
    1.17.3

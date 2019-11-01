@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "avian", git: "git@github.com:Dan2552/avian.git"
+gem "avian", path: "~/code/avian"
 
 # Tests
 group :spec do

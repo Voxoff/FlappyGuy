@@ -1,6 +1,5 @@
-GIT
-  remote: git@github.com:Dan2552/avian.git
-  revision: df2688517c9e6a4e2dbb630128dda6d75d6e1e93
+PATH
+  remote: ../avian
   specs:
     avian (0.1.0)
       activesupport (~> 5.2)
